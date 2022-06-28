@@ -4,7 +4,7 @@ const authMiddleware = require('../middlewares/auth');
 const Project = require('../models/project');
 
 
-router.use(authMiddleware);
+// router.use(authMiddleware);
 
 router.get('/', async (req, res) => {
     try{

@@ -5,7 +5,7 @@ const crypto = require('crypto');
 const mailer = require('../../modules/mailer');
 const authConfig = require('../../config/auth');
 
-const User = require('../models/User');
+const User = require('../models/user');
 
 const router = express.Router();
 
